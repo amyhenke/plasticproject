@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400|Roboto:300');
+
+body {
+    margin: 0; 
+    padding: 0
+}
+header {
+    position: absolute; 
+    width:100%; 
+    height:8%; 
+    font-size:large; 
+    font-weight:bold; 
+    border: 1px solid gray; 
+}
+#container {
+    position:absolute; 
+    top:12%; 
+    left:10%; 
+    width:65%; 
+    height:65%; 
+    /*border:1px solid red;*/
+    font-family: 'Roboto';
+}
+
+#container h3 {
+    text-transform: uppercase;
+}
+
+.highcharts-container{
+    width:100%; 
+    height:100%; 
+/*    border: 0.9px; 
+    display: block;*/
+} 
+
+/* position the menu - font-size is normal (the default) */
+#menu {
+    position:absolute; 
+    width:30%; 
+    height:85%; 
+    top:12%; 
+    right:8%; 
+    /*border:1px solid blue;*/ 
+}
+
+ul {
+    font-family: 'Oswald';
+    font-weight: lighter;
+    list-style: none;
+    font-size: 1.2em;
+    display: inline-block;
+    /*margin-left: 65%;*/
+    float: right;
+    margin-right: 5em;
+}
+
+li {
+    display: inline-block;
+    padding: 0.75em;
+}
+
+li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #010101;
+}
+
+li a:hover {
+    color: #00b8e6; /*#429ebc*/
+    text-decoration: none;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    color: #00b8e6; /*#429ebc*/
+    font-weight: lighter;
+    margin-left: 3%;
+    font-size: 1.6em;
+    top: 10%;
+}
+
+.logo span {
+    font-weight: normal;
+}
+
+.logo:hover{
+    text-decoration: none;
+    color: #429ebc; /*#36829b;*/
+}
+
+/*.logo>li {
+    display: inline-block;
+    white-space: nowrap;
+}*/
+
+#menu {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    margin-left: 70%;
+    margin-right: 2.5%;
+    width: 10%;
+}
+
+hr {
+    display: block;
+    border-style: inset;
+    border-width: 0.9px;
+}
+
+#nav {
+    margin-top: 0.7%;
+}
+
+input[type=radio] {
+    margin-left: 3%;
+
+}
+
+#display {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-size: 80%;
+    float: left;
+}
+
+#graph {
+    position:absolute; 
+    top:78%; 
+    left:18%; 
+    width:25%; 
+    height:45%; 
+    /*border:1px solid red;*/
+}
+
+#graph2 {
+    position:absolute; 
+    top:78%; 
+    left:45%; 
+    width:25%; 
+    height:45%; 
+    /*border:1px solid red;*/
+}
+
+#exportsInfo {
+    position:absolute; 
+    top:80%; 
+    left:20%; 
+    width:50%; 
+    height:45%; 
+    /*border:1px solid red;*/
+    font-family: 'Roboto';
+    /*text-transform: uppercase;*/
+}
+
+#exportsInfo h3 {
+    /*text-transform: uppercase;*/
+    font-style: italic;
+}
+
+#patches {
+    position:absolute; 
+    background-image: url('GarbagePatches.jpg');
+    background-size: contain;
+    top:17%; 
+    left:35%; 
+    width:35%; 
+    height:38%; 
+    /*border:1px solid red;*/
+    font-family: 'Roboto';
+}
+
+#data {
+    /*border:1px solid red;*/
+    position:absolute; 
+    top:17%; 
+    left:9%; 
+    width:25%; 
+    height:40%; 
+}
